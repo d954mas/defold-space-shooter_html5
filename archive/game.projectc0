@@ -1,5 +1,5 @@
 [project]
-title = Side-scroller
+title = Asteroid destroyer
 
 [bootstrap]
 main_collection = /main/main.collectionc
@@ -11,6 +11,7 @@ game_binding = /input/game.input_bindingc
 [display]
 width = 480
 height = 640
+variable_dt = 0
 
 [physics]
 scale = 0.02
@@ -20,4 +21,12 @@ shared_state = 1
 
 [sprite]
 max_count = 256
+
+[android]
+app_icon_48x48 = /icons/android/mipmap-mdpi/ic_launcher.png
+app_icon_72x72 = /icons/android/mipmap-hdpi/ic_launcher.png
+app_icon_96x96 = /icons/android/mipmap-xhdpi/ic_launcher.png
+app_icon_144x144 = /icons/android/mipmap-xxhdpi/ic_launcher.png
+app_icon_192x192 = /icons/android/mipmap-xxxhdpi/ic_launcher.png
+package = com.d954mas.game.asteroiddestroyer
 
